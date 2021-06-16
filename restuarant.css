@@ -1,0 +1,271 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Itim', cursive;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Source Sans Pro', sans-serif; */
+}
+.container
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* for small devices */
+
+
+
+.row
+{
+    width: 100%;
+}
+.row::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+[class*="col-"]
+{
+    width: 100%;
+}
+
+[class*="col-"]
+{
+    float: left;
+    padding: 15px;
+}
+
+/* Header Starts Form Here */
+header
+{
+    background-color: rgb(250, 96, 44);
+    text-align: center;
+}
+.logo
+{
+    padding: 20px 10px;
+    color:  rgb(72, 238, 30);
+     text-align: center;
+}
+.logo i
+{
+     border: black 3px solid;
+     padding: 20px 20px;
+     border-radius: 30px;
+}
+header nav ul a
+{
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    color: rgb(253, 253, 253);
+    transition: .6s;
+    text-transform: uppercase;
+    font-family: 'Itim', cursive;
+}
+header nav ul a:hover
+{
+    border: 3px solid  ;
+    border-radius: 30px;
+    width: auto%;
+    margin: 0 auto;
+    color: black;
+    background-color: rgb(240, 192, 119, 0.5);
+}
+
+/* Header Ends Here */
+
+/* Main Section Starts from Here */
+.section
+{
+    background-image: url("restuarantfood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+     
+}
+.section-div
+{
+    text-align: center;
+    padding: 90px 20px;
+    color: rgb(252, 147, 128);
+}
+.section-div h1
+{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    background-color: rgb(4, 210, 224);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    width: 100%;
+    margin: 0 auto;
+    width: auto;
+    border: 2px white;
+    font-family: 'Itim', cursive;
+ }
+
+ .section-div p
+ {
+     font-size: 1.6rem;
+     padding: 25px ;
+     font-family: 'Itim', cursive;
+ }
+
+ .section-div .btn
+{
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    transition: .4s;
+}
+.section-div .btn:hover
+{
+    background-color: rgb(14, 10, 10);
+    color: white;
+    transform: scale(1.2);
+}
+.aboutusdiv
+{
+   text-align: center;
+}
+.about-Us
+{
+     padding: 10px 10px;
+}
+.aboutusdiv h2
+{
+    font-size: 2.0rem;
+    padding: 15px ;
+}
+.aboutusdiv p
+{
+    font-size: 1.2rem;
+}
+
+/* Main Section Ends Here */
+
+/* Find Food Starts From here */
+.hotdog
+{
+    display: block;
+}
+.card
+{
+     text-align: center;
+     transition: .5s;
+}
+.card:hover
+{
+    transform: scale(.9);
+}
+
+.card-desc
+{
+  background-color: rgb(247, 96, 42);
+  padding: 15px 10px;
+ }
+
+ .card-desc h2,p
+{
+  padding: 10px;  
+}
+.card-desc h2
+{
+    font-size: 1.5rem;
+}
+.card-desc p
+{
+    color: azure;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Find Food End Here */
+
+
+/* Contact Section Starts from Here */
+.contactsection
+{
+    background-color: cadetblue;
+}
+
+.map
+{
+    height: 380px;
+    width: 100%;
+}
+
+.contact-details
+{
+    text-align: center;
+    padding: 30px 10px;
+}
+.contact-div h1
+{
+    padding: 20px 10px;
+}
+.contact-div h5
+{
+    padding: 5px;
+    font-size: 1rem;
+}
+.phone
+{
+   padding: 10px;
+   font-size: 1rem;
+}
+.openinghour
+{
+   padding: 10px ;
+   font-size: 1rem;
+}
+/* Contact Section Ends Here */
+
+
+/* footer starts from here */
+
+.footer
+{
+    background-color: rgb(30, 104, 104);
+    padding: 20px 10px;
+    height: 200px;
+}
+
+.footertext
+{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    top: 50%;
+ }
+.socialmedia
+{
+    text-align: center;
+    font-size: 1.8rem;
+   }
+.socialmediaicon
+{
+    color: rgb(0, 0, 0);
+    margin-left: 6px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transition: .7s ;
+ }
+
+ .socialmediaicon:hover
+ {
+   transform: rotate(360deg);
+   color: white;
+   border: black 2px solid;
+}
+
+/* footer Ends here */

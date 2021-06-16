@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Pangolin&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="restuarant.css">
+
+    <style>
+
+    /*For  small devices */
+    @media screen and (min-width:576px) {
+    
+    .col-sm-1  {width: 8.33%;}
+    .col-sm-2  {width: 16.66%;}
+    .col-sm-3  {width: 25%;}
+    .col-sm-4  {width: 33.33%;}
+    .col-sm-5  {width: 41.66%;}
+    .col-sm-6  {width: 50%;}
+    .col-sm-7  {width: 58.33%;}
+    .col-sm-8  {width: 66.66%;}
+    .col-sm-9  {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+}
+
+/* for Medium devices */
+@media screen and (min-width: 768px) {
+          
+    .col-mm-1  {width: 8.33%;}
+    .col-mm-2  {width: 16.66%;}
+    .col-mm-3  {width: 25%;}
+    .col-mm-4  {width: 33.33%;}
+    .col-mm-5  {width: 41.66%;}
+    .col-mm-6  {width: 50%;}
+    .col-mm-7  {width: 58.33%;}
+    .col-mm-8  {width: 66.66%;}
+    .col-mm-9  {width: 75%;}
+    .col-mm-10 {width: 83.33%;}
+    .col-mm-11 {width: 91.66%;}
+    .col-mm-12 {width: 100%;}
+}
+
+
+/* for Large devices */
+@media screen and (min-width: 992px) {
+          
+  /* header starts */
+    .logo
+    {
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    header nav ul a
+    {
+        display: inline-block;
+        margin-top: 40px;
+    }
+    header nav ul a:hover
+{
+    border: none;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+    /* header Ends */
+
+/* Banner starts From here */
+
+.section
+{
+   position: relative;
+   height: 80vh;
+}
+.section-div
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.section-div h1
+{
+    width: 800px;
+    height: 100px;
+    color: rgb(192, 0, 0);
+    background-color: springgreen;
+    font-size: 3.6rem;
+    font-family: 'Pangolin', cursive;
+}
+.section-div p
+{
+    color: rgb(255, 220, 220);
+}
+.btn
+{
+     background-color: rgb(226, 3, 3);
+     color: white;
+}
+
+/* Banner Ends Here */
+
+
+
+/* footer starts from here */
+.footer{
+    position: relative;
+    background-color: rgb(14, 139, 123);
+    height: 30vh;
+}
+.footertext
+{
+    position: absolute;
+     top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.socialmedia
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* footer Ends Here */
+
+    .col-lm-1  {width: 8.33%;}
+    .col-lm-2  {width: 16.66%;}
+    .col-lm-3  {width: 25%;}
+    .col-lm-4  {width: 33.33%;}
+    .col-lm-5  {width: 41.66%;}
+    .col-lm-6  {width: 50%;}
+    .col-lm-7  {width: 58.33%;}
+    .col-lm-8  {width: 66.66%;}
+    .col-lm-9  {width: 75%;}
+    .col-lm-10 {width: 83.33%;}
+    .col-lm-11 {width: 91.66%;}
+    .col-lm-12 {width: 100%;}
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+         <!-- Header Starts Form Here -->
+        <header>
+         <div class="row">
+            <div class="col-lm-4 ">
+                <div class="logo">
+                    <i class="fas fa-utensils fa-4x"></i>
+                </div>
+            </div>
+
+            <div class="col-lm-8 ">
+              <nav>
+                  <ul>
+                    <a href="#Homepage">Homepage</a>     
+                    <a href="#Find-Food">Find-Food</a>
+                    <a href="#Catagories">Catagories</a>
+                    <a href="#About-Us">About-Us</a>
+                    <a href="#Contact">Contact</a>
+                  </ul>
+              </nav>
+            </div>
+         </div>
+        </header>
+      
+        <!-- /* Header Ends Here */ -->
+
+        <main>
+            <section class="section">
+                <div class="section-div">
+                    <h1>Spicy King Restuarant</h1>
+                    <p>20% Discount for TakeAway</p>
+                    <button class="btn">Order Now</button>       
+                </div>
+                 
+            </section>
+           
+       <section class="about-Us">
+            <div class="row">
+                <div class="col-lm-12">
+                    <div class="aboutusdiv">
+                         <h2>About Us</h2>
+                         <p>Asperiores eligendi voluptatum labore illum praesentium a expedita eveniet temporibus pariatur eius quod adipisci unde? Soluta in quas libero, fugit vel, voluptas molestias excepturi laborum ullam eaque quaerat autem obcaecati! Sequi repellendus ipsa porro blanditiis iure placeat magnam expedita, natus, tempore, nisi recusandae. Laboriosam porro, dolor officia consequatur amet quae temporibus repellat, animi, quaerat iste distinctio qui odit iusto aliquam adipisci quod debitis illum! Qui tenetur itaque vel ullam natus fugit, rem commodi molestiae in quibusdam, repudiandae nam soluta est, accusantium magnam vero.</p>
+                     </div>     
+                   </div>
+                </div>
+       </section>
+
+       <section class="Find-Food" >
+            <div class="row">
+                <div class="col-sm-12 col-mm-6 col-lm-3" >
+                   <div class="card">
+                       <div class="card-body">
+                           <img src="hotdog3.jpg" class="hotdog" height="250px" width="100%" alt="">
+                           <div class="card-desc">
+                               <h2>Chicken HotDog</h2>
+                               <p>Item No:101</p>
+                               <p>Price: 250Tk </p>
+                               <p>Rating: 4/5</p>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+
+                <div class="col-sm-12 col-mm-6 col-lm-3" >
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="hotdog3.jpg" class="hotdog" height="250px" width="100%" alt="">
+                            <div class="card-desc">
+                                <h2>Beef HotDog</h2>
+                                <p>Item No:102</p>
+                                <p>Price: 350Tk </p>
+                                <p>Rating: 4.5/5</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="col-sm-12 col-mm-6 col-lm-3" >
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="hotdog3.jpg" class="hotdog" height="250px" width="100%" alt="">
+                            <div class="card-desc">
+                                <h2>Oiled HotDog</h2>
+                                <p>Item No:103</p>
+                                <p>Price: 200Tk </p>
+                                <p>Rating: 3.5/5</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="col-sm-12 col-mm-6 col-lm-3" >
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="hotdog3.jpg" class="hotdog" height="250px" width="100%" alt="">
+                            <div class="card-desc">
+                                <h2>Tikka HotDog</h2>
+                                <p>Item No:104</p>
+                                <p>Price: 350Tk </p>
+                                <p>Rating: 5/5</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+       </section>
+            
+
+       <!-- contact section starts from Here -->
+
+       <section class="contactsection">
+           <div class="row">
+            <div class="col-lm-8">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7307.282587585896!2d90.47457932425726!3d23.68878257727796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b73c2d7ead3b%3A0x970278359bd21eeb!2sSaddam%20Market%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1620330241481!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="col-lm-4">
+                 <div class="contact-details">
+                     <div class="contact-div">
+                         <h1>Contact Details</h1>
+                         <h3>Spicy King Restuarant</h3>
+                         <h5>Tushardhara R/A,Saddam Market, Dhaka </h5>
+                         <div class="phone">
+                             <h5>Phone:</h5>
+                             <h5>+88-01870866386</h5>
+                             <div class="openinghour">
+                              <h5>Opening Hour</h5>
+                              <h5>Tue-Mon: 5pm to 10pm Inc Bank Holidays </h5>   
+                             </div>
+                         </div>
+
+                     </div>
+                 </div>
+            </div>
+           </div>
+       </section>
+
+       <!-- contact section Ends Here -->
+
+        </main>
+        
+        <footer class="footer">
+          <div class="row">
+            <div class="col-lm-6">
+                <div class="footertext">
+                    <p>&copy; All Rights Reserved by Spicy King Restuarant</p>
+                </div>
+            </div>
+
+       <div class="col-lm-6">
+                    <div class="socialmedia">
+                        <a href="#"><i class="fas fa-arrow-up socialmediaicon"></i></a>
+                        <a href="#"><i class="fab fa-facebook socialmediaicon"></i></a>
+                        <a href="#"><i class="fab fa-facebook-messenger socialmediaicon"></i></a>
+                        <a href="#"><i class="fab fa-youtube socialmediaicon"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp socialmediaicon"></i></a>     
+                    </div>
+               </div>
+          </div>
+        </footer>    
+
+    </div>
+  
+</body>
+</html>
